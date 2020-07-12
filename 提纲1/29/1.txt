@@ -1,0 +1,13 @@
+览器缓存有哪些，通常缓存有哪几种
+参考答案：
+一、http缓存
+
+二、websql
+
+cookie
+
+localstorage
+
+sessionstorage
+
+flash缓存

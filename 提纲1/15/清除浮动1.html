@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFC方案清除浮动</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .father {
+            /* overflow: hidden; */
+            /* overflow: auto; */
+            /* display: flex; */
+            /* display: inline-block; */
+            /* display: table; */
+            /* display: inline-table; */
+            /* 上述几种都可以 ，下面三种方法父元素的宽度不在是100%，而是子元素的宽度*/
+            border: 5px solid #bfa;
+        }
+        
+        .son {
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</body>
+
+</html>

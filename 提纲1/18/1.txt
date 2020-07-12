@@ -1,0 +1,5 @@
+基本数据类型：
+    number、Boolean、string、null、undefined
+引用数据类型：
+    object、array、function
+其中array和function是特殊的对象

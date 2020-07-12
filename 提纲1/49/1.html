@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 判断一个字符串中出现次数最多的字符，统计这个次数，这种方法不好,不能处理出现多个不同字符数量相等的问题
+        var str = 'aabbccd';
+        var obj = {};
+        var max = {};
+        for (var i = 0, length = str.length; i < length; i++) {
+            if (!obj[str[i]]) {
+                obj[str[i]] = 1;
+            } else {
+                obj[str[i]] += 1;
+            }
+        }
+        max.str = '';
+        max.val = 0;
+        for (var k in obj) {
+            if (max.val < obj[k]) {
+                max.val = obj[k];
+                max.str = k;
+            }
+        }
+        console.log(max);
+    </script>
+</body>
+
+</html>

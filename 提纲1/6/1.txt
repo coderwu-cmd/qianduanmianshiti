@@ -1,0 +1,5 @@
+拖拽会用到哪些事件:
+    1.onmousedown (鼠标按下)
+    2.onmousemove(鼠标移动)
+    3.onmouseup(鼠标抬起)
+    4.需要事件监听

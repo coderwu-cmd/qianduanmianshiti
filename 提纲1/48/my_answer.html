@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var str = 'abc';
+        if (typeof str === 'string') {
+            console.log(str + '是字符串类型数据');
+        } else {
+            console.log(str + '不是字符串类型数据');
+        }
+        console.log(Array.prototype.toString.call(str).slice(8, -1));
+    </script>
+</body>
+
+</html>

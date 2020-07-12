@@ -1,0 +1,19 @@
+1）创建新节点
+
+createDocumentFragment() //创建一个DOM片段
+createElement() //创建一个具体的元素
+createTextNode() //创建一个文本节点
+
+2）添加、移除、替换、插入
+appendChild() //添加
+removeChild() //移除
+replaceChild() //替换
+insertBefore() //插入
+
+3）查找
+getElementsByTagName() //通过标签名称
+getElementsByName() //通过元素的Name属性的值
+getElementById() //通过元素Id，唯一性
+————————————————
+版权声明：本文为CSDN博主「小胖梅」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/xm1037782843/article/details/80708533

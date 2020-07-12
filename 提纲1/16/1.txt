@@ -1,0 +1,21 @@
+我的答案：
+1.boeder-box width包含content+padding+border
+2.border-content width只包含content区域
+3.inherit规定应从父元素继承 box-sizing 属性的值。
+参考答案：
+属性值
+· box-sizing：content-box
+· box-sizing：border-box
+· box-sizing：inherit
+content-box
+· 这是box-sizing的默认属性值
+· 是CSS2.1中规定的宽度高度的显示行为
+· 在CSS中定义的宽度和高度就对应到元素的内容框
+· 在CSS中定义的宽度和高度之外绘制元素的内边距和边框
+border-box
+· 在CSS中微元素设定的宽度和高度就决定了元素的边框盒
+· 即为元素在设置内边距和边框是在已经设定好的宽度和高度之内进行绘制
+· CSS中设定的宽度和高度减去边框和内间距才能得到元素内容所占的实际宽度和高度
+(Q1)box-sizing: content-box|border-box|inherit;
+(Q2)content-box:宽度和高度分别应用到元素的内容框。在宽度和高度之外绘制元素的内边距和边框(元素默认效果)。
+border-box:元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制。通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度。

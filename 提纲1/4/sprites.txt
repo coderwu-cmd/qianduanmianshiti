@@ -1,0 +1,5 @@
+css 中的sprites的作用就是将多个图片整合到一张图片上,通过background-position切换图片,从而减少图片的整体的内存大小,降低服务器的压力
+答案：
+CSS Sprites其实就是把网页中一些背景图片整合到一张图片文件中，再利用CSS的“background-image”，“background- repeat”，“background-position”的组合进行背景定位，background-position可以用数字能精确的定位出背景图片的位置。
+CSS Sprites为一些大型的网站节约了带宽，让提高了用户的加载速度和用户体验，不需要加载更多的图片
+

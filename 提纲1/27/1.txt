@@ -1,0 +1,23 @@
+把字符串参数解析成JS代码并运行，并返回执行的结果；
+
+eval("2+3");//执行加运算，并返回运算值。  
+
+eval("varage=10");//声明一个age变量  
+
+eval的作用域
+
+functiona(){  
+
+1.  eval("var x=1"); //等效于 var x=1;  
+
+2.  console.log(x); //输出1  
+
+3. }  
+
+4. a();  
+
+5. console.log(x);//错误 x没有定
+————————————————
+版权声明：本文为CSDN博主「小胖梅」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/xm1037782843/article/details/80708533
+更多参见：https://www.cnblogs.com/scy251147/archive/2010/10/12/1849253.html

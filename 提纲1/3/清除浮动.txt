@@ -1,0 +1,5 @@
+1.在父盒子最后添加一个空的块级元素,兵添加属性clear:both; // W3C推荐但是会产生多余的标签,不好
+2.给父盒子添加如下属性中的一个： overflow: auto;    overflow: hidden;    display: table-cell;但是这样会给元素添加多余的属性,可能在某个场合这些属性我们不方便添加，也不好
+3.给父元素一个高度,height/min-height,但是有的时候我们不方便给出高度,所以这个方法也不是最好的
+4.通过给父类添加after伪元素法,display:block;并添加clear:both属性,就是第一种方法的变形,但是他没有增加多余的标签,推荐使用
+        

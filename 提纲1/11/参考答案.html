@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = ['abc', 'abcd', 'sss', '2', 'd', 't', '2', 'ss', 'f', '22', 'd'];
+        var s = [];
+        for (var i = 0; i < arr.length; i++) {
+            if (s.indexOf(arr[i]) === -1) { //判断在s数组中是否存在，不存在则push到s数组中
+                s.push(arr[i]);
+            }
+        }
+        console.log(s); //(9) ["abc", "abcd", "sss", "2", "d", "t", "ss", "f", "22"]
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+px和em、rem的区别
+px是一个相对长度单位,是相对于屏幕的宽度而言的,它的值是固定不变的
+em是一个相对单位,是相对于当前元素的font-size的大小来决定的,1px = 1font-size
+rem也是一个相对单位,但是它比较特别只针对html根元素的字体大小来决定的,所以适合rem布局
+详细参见：https://www.runoob.com/w3cnote/px-em-rem-different.html
